@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GitHub\\AspNetCorejQueryDatatableServerSide\\AspNetCorejQueryDatatable\\MVCDatatable\\MVCDatatable.csproj": {}
+  },
+  "projects": {
+    "C:\\GitHub\\AspNetCorejQueryDatatableServerSide\\AspNetCorejQueryDatatable\\MVCDatatable\\MVCDatatable.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\AspNetCorejQueryDatatableServerSide\\AspNetCorejQueryDatatable\\MVCDatatable\\MVCDatatable.csproj",
+        "projectName": "MVCDatatable",
+        "projectPath": "C:\\GitHub\\AspNetCorejQueryDatatableServerSide\\AspNetCorejQueryDatatable\\MVCDatatable\\MVCDatatable.csproj",
+        "packagesPath": "C:\\Users\\ItaPC\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\AspNetCorejQueryDatatableServerSide\\AspNetCorejQueryDatatable\\MVCDatatable\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ItaPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.0.17, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

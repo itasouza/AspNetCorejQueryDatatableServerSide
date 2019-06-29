@@ -1,0 +1,198 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<br />
+<br />
+
+<div class="container">
+
+
+
+    @*<table id="myTable" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th class="th-sm">
+                    #
+                </th>
+                <th class="th-sm">
+                    Nome Do Produto
+                </th>
+                <th class="th-sm">
+                    Nome Do Fornecedor
+                </th>
+                <th class="th-sm">
+                    Nome Da categoria
+                </th>
+                <th class="th-sm">
+                    Preco de Custo
+                </th>
+                <th class="th-sm">
+                    Preco de Venda
+                </th>
+                <th class="th-sm">
+                    Medição
+                </th>
+                <th class="th-sm">
+                    Status
+                </th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+            <tr>
+                <th class="th-sm">
+                    #
+                </th>
+                <th class="th-sm">
+                    Nome Do Produto
+                </th>
+                <th class="th-sm">
+                    Nome Do Fornecedor
+                </th>
+                <th class="th-sm">
+                    Nome Da categoria
+                </th>
+                <th class="th-sm">
+                    Preco de Custo
+                </th>
+                <th class="th-sm">
+                    Preco de Venda
+                </th>
+                <th class="th-sm">
+                    Medição
+                </th>
+                <th class="th-sm">
+                    Status
+                </th>
+            </tr>
+        </tfoot>
+    </table>*@
+
+
+
+
+    <table id="myTable" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th class="th-sm">
+                    #
+                </th>
+                <th class="th-sm">
+                    Nome Do Produto
+                </th>
+                <th class="th-sm">
+                    Nome Do Fornecedor
+                </th>
+                <th class="th-sm">
+                    Nome Da categoria
+                </th>
+                <th class="th-sm">
+                    Preco de Custo
+                </th>
+                <th class="th-sm">
+                    Preco de Venda
+                </th>
+                <th class="th-sm">
+                    Medição
+                </th>
+                <th class="th-sm">
+                    Status
+                </th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+            <tr>
+                <th class="th-sm">
+                    #
+                </th>
+                <th class="th-sm">
+                    Nome Do Produto
+                </th>
+                <th class="th-sm">
+                    Nome Do Fornecedor
+                </th>
+                <th class="th-sm">
+                    Nome Da categoria
+                </th>
+                <th class="th-sm">
+                    Preco de Custo
+                </th>
+                <th class="th-sm">
+                    Preco de Venda
+                </th>
+                <th class="th-sm">
+                    Medição
+                </th>
+                <th class="th-sm">
+                    Status
+                </th>
+            </tr>
+        </tfoot>
+    </table>
+
+</div>
+
+
+@section Styles {
+
+
+
+}
+
+
+@section Scripts {
+
+
+
+    <script type="text/javascript">
+
+
+        //$(document).ready(function () {
+        //    $('#myTable').DataTable({
+        //        "ajax": {
+        //            "url": "/home/loaddata",
+        //            "type": "GET",
+        //            "datatype":"json"
+        //        },
+        //        "columns": [
+        //            { "data": "id", "autoWidth": true },
+        //            { "data": "nome", "autoWidth": true },
+        //            { "data": "fornecedor.nome", "autoWidth": true },
+        //            { "data": "categoria.nome", "autoWidth": true },
+        //            { "data": "precoDeCusto", "autoWidth": true },
+        //            { "data": "precoDeVenda", "autoWidth": true },
+        //            { "data": "medicao", "autoWidth": true },
+        //            { "data": "status", "autoWidth": true }
+        //        ]
+        //    });
+
+         $(document).ready(function () {
+            $('#myTable').DataTable({
+                "ajax": {
+                    "url": "/home/loaddataserver",
+                    "type": "POST",
+                    "datatype":"json"
+                },
+                "processing": true,
+                "serverSide": true,
+                "filter": false,
+                "orderMulti":false,
+                "columns": [
+                    { "data": "id", "name": "id", "autoWidth": true },
+                    { "data": "nome", "name": "nome", "autoWidth": true },
+                    { "data": "fornecedor.nome", "name":"fornecedor.nome", "autoWidth": true },
+                    { "data": "categoria.nome", "name":"categoria.nome", "autoWidth": true },
+                    { "data": "precoDeCusto", "name":"precoDeCusto", "autoWidth": true },
+                    { "data": "precoDeVenda", "name": "precoDeVenda", "autoWidth": true },
+                    { "data": "medicao", "name":"medicao", "autoWidth": true },
+                    { "data": "status", "name":"status", "autoWidth": true }
+                ]
+            });
+
+        });
+
+    </script>
+
+}
