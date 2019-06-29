@@ -50,12 +50,13 @@ namespace MVCDatatable.Controllers
             int skip = start != null ? Convert.ToInt32(start) : 0;
             int totalRecords = 0;
 
-            var v = ( database.Produtos.Include(p => p.Categoria).Include(p => p.Fornecedor).Where(p => p.Id <= 35));
+          //  var v = ( database.Produtos.Include(p => p.Categoria).Include(p => p.Fornecedor).Where(p => p.Id <= 35));
+            var v = (database.Produtos.Include(p => p.Categoria).Include(p => p.Fornecedor));
 
             //SORT
             if (!(string.IsNullOrEmpty(sortColumn) && string.IsNullOrEmpty(sortColumnDir)))
             {
-               // v = v.OrderBy(sortColumn + " " + sortColumnDir);
+             //   v = v.OrderBy(sortColumn + " " + sortColumnDir);
             }
 
             totalRecords = v.Count();

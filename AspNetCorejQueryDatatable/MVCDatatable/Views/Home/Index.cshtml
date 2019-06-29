@@ -2,8 +2,6 @@
     ViewData["Title"] = "Home Page";
 }
 
-<br />
-<br />
 
 <div class="container">
 
@@ -72,7 +70,7 @@
 
 
 
-    <table id="myTable" class="table table-striped table-bordered" cellspacing="0" width="100%">
+    <table id="myTable"  class="table table-hover table-striped display responsive nowrap " cellspacing="0" width="100%">
         <thead>
             <tr>
                 <th class="th-sm">
@@ -168,6 +166,12 @@
         //        ]
         //    });
 
+
+
+
+
+
+
          $(document).ready(function () {
             $('#myTable').DataTable({
                 "ajax": {
@@ -177,8 +181,10 @@
                 },
                 "processing": true,
                 "serverSide": true,
-                "filter": false,
-                "orderMulti":false,
+                "filter": true,
+                "orderMulti": false,
+                "paging": true,
+                "info":     true,
                 "columns": [
                     { "data": "id", "name": "id", "autoWidth": true },
                     { "data": "nome", "name": "nome", "autoWidth": true },
@@ -188,7 +194,19 @@
                     { "data": "precoDeVenda", "name": "precoDeVenda", "autoWidth": true },
                     { "data": "medicao", "name":"medicao", "autoWidth": true },
                     { "data": "status", "name":"status", "autoWidth": true }
-                ]
+                ],
+                "language": {
+                    "lengthMenu": "Visualizando _MENU_ Registros por página",
+                    "zeroRecords": "Não existe registros para visualização",
+                    "info": "Mostrando página _PAGE_ de _PAGES_",
+                    "infoEmpty": "No records available",
+                    "infoFiltered": "(filtered from _MAX_ total records)",
+                    "paginate": {
+                        "previous": "Página Anterior",
+                        "next": "Próxima página"
+                    }
+                }
+
             });
 
         });

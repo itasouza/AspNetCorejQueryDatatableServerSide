@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "f95774411cdded2ba17363b43088b8e298dc2e94"
+    "signature": "c838b05e8b5479fab276852adae649338f5ba238"
   },
   "compilationOptions": {
     "defines": [
@@ -26,7 +26,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
-          "Microsoft.NETCore.App": "2.1.0"
+          "Microsoft.NETCore.App": "2.1.0",
+          "System.Linq.Dynamic.Core": "1.0.17"
         },
         "runtime": {
           "MVCDatatable.dll": {}
@@ -36,6 +37,17 @@
         }
       },
       "Microsoft.AspNetCore.Razor.Design/2.1.2": {},
+      "System.Linq.Dynamic.Core/1.0.17": {
+        "runtime": {
+          "lib/netcoreapp2.1/System.Linq.Dynamic.Core.dll": {
+            "assemblyVersion": "1.0.16.0",
+            "fileVersion": "1.0.16.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.1/System.Linq.Dynamic.Core.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
@@ -3171,6 +3183,13 @@
       "sha512": "sha512-fe1+dpy+eM4IX1zodsvkihO1Spuj0NecfStWzvkYoMo7/ziOsqSv4vFK36ZpBfHa4gpdCEwaU46EPzdq+ZDYhQ==",
       "path": "microsoft.aspnetcore.razor.design/2.1.2",
       "hashPath": "microsoft.aspnetcore.razor.design.2.1.2.nupkg.sha512"
+    },
+    "System.Linq.Dynamic.Core/1.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cEJ4DuSr+yiYrZMfRq1BSkbMUZi2laWqMnjCKthC4/KXoOHZ5ERiqNhpn59gtbAVTCvTnkVptmEL6wMBFru1Xw==",
+      "path": "system.linq.dynamic.core/1.0.17",
+      "hashPath": "system.linq.dynamic.core.1.0.17.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",

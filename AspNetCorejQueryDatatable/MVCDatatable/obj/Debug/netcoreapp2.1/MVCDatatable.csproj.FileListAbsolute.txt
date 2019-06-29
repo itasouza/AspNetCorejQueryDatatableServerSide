@@ -23,3 +23,10 @@ C:\GitHub\AspNetCorejQueryDatatableServerSide\AspNetCorejQueryDatatable\MVCDatat
 C:\GitHub\AspNetCorejQueryDatatableServerSide\AspNetCorejQueryDatatable\MVCDatatable\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
 C:\GitHub\AspNetCorejQueryDatatableServerSide\AspNetCorejQueryDatatable\MVCDatatable\obj\Debug\netcoreapp2.1\MVCDatatable.RazorTargetAssemblyInfo.cache
 C:\GitHub\AspNetCorejQueryDatatableServerSide\AspNetCorejQueryDatatable\MVCDatatable\obj\Debug\netcoreapp2.1\MVCDatatable.RazorTargetAssemblyInfo.cs
+C:\GitHub\AspNetCorejQueryDatatableServerSide\AspNetCorejQueryDatatable\MVCDatatable\bin\Debug\netcoreapp2.1\MVCDatatable.pdb
+C:\GitHub\AspNetCorejQueryDatatableServerSide\AspNetCorejQueryDatatable\MVCDatatable\bin\Debug\netcoreapp2.1\MVCDatatable.Views.dll
+C:\GitHub\AspNetCorejQueryDatatableServerSide\AspNetCorejQueryDatatable\MVCDatatable\bin\Debug\netcoreapp2.1\MVCDatatable.Views.pdb
+C:\GitHub\AspNetCorejQueryDatatableServerSide\AspNetCorejQueryDatatable\MVCDatatable\obj\Debug\netcoreapp2.1\MVCDatatable.Views.pdb
+C:\GitHub\AspNetCorejQueryDatatableServerSide\AspNetCorejQueryDatatable\MVCDatatable\obj\Debug\netcoreapp2.1\MVCDatatable.dll
+C:\GitHub\AspNetCorejQueryDatatableServerSide\AspNetCorejQueryDatatable\MVCDatatable\obj\Debug\netcoreapp2.1\MVCDatatable.pdb
+C:\GitHub\AspNetCorejQueryDatatableServerSide\AspNetCorejQueryDatatable\MVCDatatable\obj\Debug\netcoreapp2.1\MVCDatatable.csproj.CopyComplete

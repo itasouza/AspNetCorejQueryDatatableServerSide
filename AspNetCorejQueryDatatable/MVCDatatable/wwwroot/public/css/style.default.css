@@ -1,0 +1,7 @@
+ .item-text.input-error {
+      color: red;
+    }  
+
+  .input-group .form-control {
+      z-index: unset;
+  }
